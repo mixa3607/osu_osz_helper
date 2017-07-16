@@ -58,6 +58,7 @@ namespace WindowsFormsApplication1
                 int len_to = directories_to.Length;
                 Boolean check = false;
                 Regex rgx = new Regex(@".*\\");
+                Regex dots = new Regex(@"\.");
 
 
 
@@ -72,7 +73,7 @@ namespace WindowsFormsApplication1
                 {
                     while (i2 < len_to)
                     {
-                        if (string.Equals(rgx.Replace(directories_from[i1], ""), rgx.Replace(directories_to[i2], "") + ".osz") || string.Equals(rgx.Replace(directories_from[i1], ""), rgx.Replace(directories_to[i2], "")))
+                        if (string.Equals(dots.Replace(rgx.Replace(directories_from[i1], ""), ""), dots.Replace(rgx.Replace(directories_to[i2], ""), "") + "osz") || string.Equals(dots.Replace(rgx.Replace(directories_from[i1], ""), ""), dots.Replace(rgx.Replace(directories_to[i2], ""), "")))
                         {
                             check = true;
                            // to_list.Items.Add("true");

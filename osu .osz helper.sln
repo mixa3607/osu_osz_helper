@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{9FE4BC2C-F508-404A-A5B8-BD4A75E23378}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu .osz helper", "WindowsFormsApplication1\osu .osz helper.csproj", "{9FE4BC2C-F508-404A-A5B8-BD4A75E23378}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
